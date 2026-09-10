@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650">
+<rect width="100%" height="100%" rx="24" fill="#111923"/>
+<text x="42" y="52" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="700" fill="#f2f5f8">Combo reference</text>
+<text x="42" y="81" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9fb0c3">Labels use the BASE tap action</text>
+<rect x="42" y="112" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="137" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Escape</text>
+<text x="222" y="137" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">ä + u</text>
+<text x="558" y="137" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#27 + #28</text>
+<rect x="42" y="161" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="186" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Up</text>
+<text x="222" y="186" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">c + l</text>
+<text x="558" y="186" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#8 + #9</text>
+<rect x="42" y="210" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Page Up</text>
+<text x="222" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">g + c + l</text>
+<text x="558" y="235" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#7 + #8 + #9</text>
+<rect x="42" y="259" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="284" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Down</text>
+<text x="222" y="284" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">w + m</text>
+<text x="558" y="284" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#32 + #33</text>
+<rect x="42" y="308" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="333" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Page Down</text>
+<text x="222" y="333" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">d + w + m</text>
+<text x="558" y="333" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#31 + #32 + #33</text>
+<rect x="42" y="357" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="382" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Left</text>
+<text x="222" y="382" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">t + r</text>
+<text x="558" y="382" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#19 + #20</text>
+<rect x="42" y="406" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="431" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Right</text>
+<text x="222" y="431" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">r + n</text>
+<text x="558" y="431" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#20 + #21</text>
+<rect x="42" y="455" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="480" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Enter</text>
+<text x="222" y="480" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">d + w</text>
+<text x="558" y="480" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#31 + #32</text>
+<rect x="42" y="504" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="529" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">System layer</text>
+<text x="222" y="529" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">outer thumbs</text>
+<text x="558" y="529" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#36 + #41</text>
+<rect x="42" y="553" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="56" y="578" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Backspace</text>
+<text x="222" y="578" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">l + z</text>
+<text x="558" y="578" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#9 + #10</text>
+<rect x="592" y="112" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="137" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Backspace</text>
+<text x="772" y="137" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">n + f</text>
+<text x="1108" y="137" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#21 + #22</text>
+<rect x="592" y="161" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="186" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Backspace</text>
+<text x="772" y="186" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">q + ä</text>
+<text x="1108" y="186" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#26 + #27</text>
+<rect x="592" y="210" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Tab</text>
+<text x="772" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">a + e</text>
+<text x="1108" y="235" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#14 + #15</text>
+<rect x="592" y="259" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="284" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Shift + Tab</text>
+<text x="772" y="284" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">h + a</text>
+<text x="1108" y="284" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#13 + #14</text>
+<rect x="592" y="308" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="333" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Copy</text>
+<text x="772" y="333" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">a + o</text>
+<text x="1108" y="333" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#14 + #3</text>
+<rect x="592" y="357" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="382" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Cut</text>
+<text x="772" y="382" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">h + o</text>
+<text x="1108" y="382" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#13 + #3</text>
+<rect x="592" y="406" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="431" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Paste</text>
+<text x="772" y="431" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">i + o</text>
+<text x="1108" y="431" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#16 + #3</text>
+<rect x="592" y="455" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="480" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Undo</text>
+<text x="772" y="480" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">. + o</text>
+<text x="1108" y="480" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#2 + #3</text>
+<rect x="592" y="504" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="529" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Redo</text>
+<text x="772" y="529" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">o + ,</text>
+<text x="1108" y="529" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#3 + #4</text>
+<rect x="592" y="553" width="532" height="40" rx="8" fill="#1b2837"/>
+<text x="606" y="578" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="650" fill="#f2f5f8">Delete</text>
+<text x="772" y="578" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#b8c7d8">m + j</text>
+<text x="1108" y="578" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#718ca8">#33 + #34</text>
+</svg>
