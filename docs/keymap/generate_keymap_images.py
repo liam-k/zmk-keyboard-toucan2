@@ -28,7 +28,7 @@ LAYERS = {
             k("b", "B"), k("t", "GUI"), k("r", "Alt"), k("n", "Ctrl"), k("f", "Shift"), none,
             none, k("x", "X"), k("q", "Q"), k("ä", "Ä"), k("u", "U"), k("ö", "Ö"),
             k("p", "P"), k("d", "D"), k("w", "W"), k("m", "M"), k("j", "J"), none,
-            k("NUM NAV", "hold", "layer"), k("Space", "hold: SYM", "layer"), k("Sticky Shift", kind="modifier"),
+            k("NUM NAV", "hold", "layer"), k("Space", "hold: SYM", "layer"), k("Smart Shift", "tap again: Caps Word", "modifier"),
             k("SYM", "tap: sticky · hold: momentary", "layer"), k("s", "S"), k("ADJ", "hold", "layer"),
         ],
     },
