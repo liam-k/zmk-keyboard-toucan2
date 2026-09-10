@@ -53,7 +53,7 @@ LAYERS = {
         "keys": [
             none, k("1"), k("2"), k("3"), k("4"), k("5"),
             k("6", kind="numpad"), k("7", kind="numpad"), k("8", kind="numpad"), k("9", kind="numpad"), k("0", kind="numpad"), none,
-            none, k("Scroll mode", "toggle", "layer"), k("▽", kind="transparent"), k("↑", kind="nav"), k("▽", kind="transparent"), k("▽", kind="transparent"),
+            none, k("Scroll mode", "toggle", "layer"), k("▽", kind="transparent"), k("↑", kind="nav"), k("▽", kind="transparent"), k("Precision", "hold", "layer"),
             k("*", "hold: /", "numpad"), k("4", "hold: GUI", "numpad"), k("5", "hold: Alt", "numpad"), k("6", "hold: Ctrl", "numpad"), k("+", kind="numpad"), none,
             none, k("▽", kind="transparent"), k("←", kind="nav"), k("↓", kind="nav"), k("→", kind="nav"), k("▽", kind="transparent"),
             k("−", kind="numpad"), k("1", kind="numpad"), k("2", kind="numpad"), k("3", kind="numpad"), k(".", kind="numpad"), none,

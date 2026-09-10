@@ -47,9 +47,10 @@
 <rect x="369" y="220" width="100" height="68" rx="11" fill="#1b2531" stroke="#344252" stroke-width="2"/>
 <text x="377" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#16</text>
 <text x="419.0" y="264" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">▽</text>
-<rect x="477" y="220" width="100" height="68" rx="11" fill="#1b2531" stroke="#344252" stroke-width="2"/>
+<rect x="477" y="220" width="100" height="68" rx="11" fill="#174f52" stroke="#2a8588" stroke-width="2"/>
 <text x="485" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#17</text>
-<text x="527.0" y="264" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">▽</text>
+<text x="527.0" y="259" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">Precision</text>
+<text x="527.0" y="277" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="400" fill="#b7c5d5">hold</text>
 <rect x="675" y="220" width="100" height="68" rx="11" fill="#294f75" stroke="#4b85ba" stroke-width="2"/>
 <text x="683" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#18</text>
 <text x="725.0" y="259" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">*</text>
