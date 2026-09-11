@@ -147,6 +147,6 @@
 <rect x="891" y="392" width="100" height="68" rx="11" fill="#174f52" stroke="#2a8588" stroke-width="2"/>
 <text x="899" y="407" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#41</text>
 <text x="941.0" y="431" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">ADJ</text>
-<text x="941.0" y="449" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="400" fill="#b7c5d5">switch</text>
+<text x="941.0" y="449" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="7" font-weight="400" fill="#b7c5d5">tap: switch · hold: momentary</text>
 <text x="45" y="498" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#718399">▽ = transparent · disabled outer matrix positions are omitted</text>
 </svg>

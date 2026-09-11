@@ -56,8 +56,8 @@
 <text x="527.0" y="277" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="400" fill="#b7c5d5">toggle</text>
 <rect x="675" y="220" width="100" height="68" rx="11" fill="#533e79" stroke="#8567b7" stroke-width="2"/>
 <text x="683" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#18</text>
-<text x="725.0" y="259" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="650" fill="#f5f7fa">Right click</text>
-<text x="725.0" y="277" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="400" fill="#b7c5d5">hold: Middle click</text>
+<text x="725.0" y="259" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">Left click</text>
+<text x="725.0" y="277" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="400" fill="#b7c5d5">holdable for drag</text>
 <rect x="783" y="220" width="100" height="68" rx="11" fill="#294f75" stroke="#4b85ba" stroke-width="2"/>
 <text x="791" y="235" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="500" fill="#8092a7">#19</text>
 <text x="833.0" y="259" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" fill="#f5f7fa">4</text>

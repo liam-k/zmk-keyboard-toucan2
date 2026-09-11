@@ -29,7 +29,7 @@ LAYERS = {
             none, k("x", "#"), k("q", "|"), k("ä", "$"), k("u", "~"), k("ö", "`"),
             k("p", "+"), k("d", "%"), k("w", "\""), k("m", "'"), k("j", ";"), none,
             k("NUM NAV", "tap: sticky · hold: momentary", "layer"), k("Space", "hold: SYM", "layer"), k("Smart Shift", "tap again: Caps Word", "modifier"),
-            k("SYM", "tap: sticky · hold: momentary", "layer"), k("s", "hold: momentary SYM"), k("ADJ", "switch", "layer"),
+            k("SYM", "tap: sticky · hold: momentary", "layer"), k("s", "hold: momentary SYM"), k("ADJ", "tap: switch · hold: momentary", "layer"),
         ],
     },
     "01-symbol": {
@@ -53,7 +53,7 @@ LAYERS = {
             none, k("1"), k("2"), k("3"), k("4"), k("5"),
             k("6", kind="numpad"), k("7", kind="numpad"), k("8", kind="numpad"), k("9", kind="numpad"), k("0", kind="numpad"), none,
             none, k("Scroll mode", "tap: toggle · hold: Shift", "layer"), k("←", "hold: Ctrl", "nav"), k("↑", "hold: Alt", "nav"), k("→", "hold: GUI", "nav"), k("Precision", "toggle", "layer"),
-            k("Right click", "hold: Middle click", "mouse"), k("4", "hold: GUI", "numpad"), k("5", "hold: Alt", "numpad"), k("6", "hold: Ctrl", "numpad"), k("Space", "hold: Shift", "modifier"), none,
+            k("Left click", "holdable for drag", "mouse"), k("4", "hold: GUI", "numpad"), k("5", "hold: Alt", "numpad"), k("6", "hold: Ctrl", "numpad"), k("Space", "hold: Shift", "modifier"), none,
             none, k("Alt + ←", kind="nav"), k("←", kind="nav"), k("↓", kind="nav"), k("→", kind="nav"), k("Alt + →", kind="nav"),
             k("Left click", "holdable for drag", "mouse"), k("1", kind="numpad"), k("2", kind="numpad"), k("3", kind="numpad"), k(".", "hold: ,", "numpad"), none,
             k("Middle click", kind="mouse"), k("Left click", kind="mouse"), k("Right click", kind="mouse"),
@@ -200,3 +200,12 @@ def render_combos() -> None:
 for name, data in LAYERS.items():
     render_layer(name, data)
 render_combos()
+
+
+import subprocess
+
+slugs = [*LAYERS, "05-combos"]
+for slug in slugs:
+    svg = Path(__file__).with_name(f"{slug}.svg")
+    png = Path(__file__).with_name(f"{slug}.png")
+    subprocess.run(["rsvg-convert", "-o", str(png), str(svg)], check=True)
