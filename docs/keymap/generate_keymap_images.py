@@ -18,63 +18,62 @@ def k(tap: str, hold: str = "", kind: str = "key") -> Key:
 none = k("", kind="none")
 
 LAYERS = {
-    "base": {
+    "00-base": {
         "title": "Layer 0 — BASE",
-        "note": "KOY alpha layout · hold letters for capitals",
+        "note": "KOY alpha layout · hold ordinary letters for the matching Symbol action",
         "keys": [
-            none, k("k", "K"), k(".", "@"), k("o", "O"), k(",", "–"), k("ü", "Ü"),
-            k("v", "V"), k("g", "G"), k("c", "C"), k("l", "L"), k("z", "Z"), none,
-            none, k("h", "Shift"), k("a", "Ctrl"), k("e", "Alt"), k("i", "GUI"), k("y", "Y"),
-            k("b", "B"), k("t", "GUI"), k("r", "Alt"), k("n", "Ctrl"), k("f", "Shift"), none,
-            none, k("x", "X"), k("q", "Q"), k("ä", "Ä"), k("u", "U"), k("ö", "Ö"),
-            k("p", "P"), k("d", "D"), k("w", "W"), k("m", "M"), k("j", "J"), none,
-            k("NUM NAV", "hold", "layer"), k("Space", "hold: SYM", "layer"), k("Smart Shift", "tap again: Caps Word", "modifier"),
-            k("SYM", "tap: sticky · hold: momentary", "layer"), k("s", "S"), k("ADJ", "hold", "layer"),
+            none, k("k", "°"), k(".", "@"), k("o", "["), k(",", "–"), k("ü", "^"),
+            k("v", "!"), k("g", "<"), k("c", ">"), k("l", "="), k("z", "&"), none,
+            none, k("h", "Shift"), k("a", "Ctrl"), k("e", "Alt"), k("i", "GUI"), k("y", "*"),
+            k("b", "?"), k("t", "GUI"), k("r", "Alt"), k("n", "Ctrl"), k("f", "Shift"), none,
+            none, k("x", "#"), k("q", "|"), k("ä", "$"), k("u", "~"), k("ö", "`"),
+            k("p", "+"), k("d", "%"), k("w", "\""), k("m", "'"), k("j", ";"), none,
+            k("NUM NAV", "tap: sticky · hold: momentary", "layer"), k("Space", "hold: SYM", "layer"), k("Smart Shift", "tap again: Caps Word", "modifier"),
+            k("SYM", "tap: sticky · hold: momentary", "layer"), k("s", "hold: momentary SYM"), k("ADJ", "switch", "layer"),
         ],
     },
-    "symbol": {
+    "01-symbol": {
         "title": "Layer 1 — SYMBOL",
-        "note": "Neo-style symbols · | and $ use your preferred swapped positions",
+        "note": "Neo-style symbols · ~ is emitted as a literal character, not a dead key",
         "keys": [
-            none, k("\\", "hold: Esc"), k("_"), k("["), k("]"), k("^"),
+            none, k("°", "hold: Esc"), k("_"), k("["), k("]"), k("^"),
             k("!"), k("<"), k(">"), k("="), k("&"), none,
             none, k("\\"), k("/", "hold: Ctrl"), k("{", "hold: Alt"), k("}", "hold: GUI"), k("*"),
             k("?"), k("(", "hold: GUI"), k(")", "hold: Alt"), k("-", "hold: Ctrl"), k(":"), none,
-            none, k("#"), k("|"), k("$", "hold: €"), k("~"), k("`"),
+            none, k("#"), k("|"), k("$", "hold: €"), k("~", "literal"), k("`"),
             k("+"), k("%"), k("\""), k("'"), k(";"), none,
             k("\\", kind="symbol"), k("$", kind="symbol"), k(":", kind="symbol"),
             k(",", kind="symbol"), k("ß", kind="symbol"), k(".", kind="symbol"),
         ],
-    }
-,
-    "num-nav": {
+    },
+    "02-num-nav": {
         "title": "Layer 2 — NUM NAV + MOUSE",
-        "note": "The touchpad activates this layer · the thumb row contains mouse buttons",
+        "note": "The touchpad activates this layer · Precision and Scroll are persistent toggles",
         "keys": [
             none, k("1"), k("2"), k("3"), k("4"), k("5"),
             k("6", kind="numpad"), k("7", kind="numpad"), k("8", kind="numpad"), k("9", kind="numpad"), k("0", kind="numpad"), none,
-            none, k("Scroll mode", "toggle", "layer"), k("▽", kind="transparent"), k("↑", kind="nav"), k("▽", kind="transparent"), k("Precision", "hold", "layer"),
-            k("*", "hold: /", "numpad"), k("4", "hold: GUI", "numpad"), k("5", "hold: Alt", "numpad"), k("6", "hold: Ctrl", "numpad"), k("+", kind="numpad"), none,
-            none, k("▽", kind="transparent"), k("←", kind="nav"), k("↓", kind="nav"), k("→", kind="nav"), k("▽", kind="transparent"),
-            k("−", kind="numpad"), k("1", kind="numpad"), k("2", kind="numpad"), k("3", kind="numpad"), k(".", kind="numpad"), none,
+            none, k("Scroll mode", "tap: toggle · hold: Shift", "layer"), k("←", "hold: Ctrl", "nav"), k("↑", "hold: Alt", "nav"), k("→", "hold: GUI", "nav"), k("Precision", "toggle", "layer"),
+            k("Right click", "hold: Middle click", "mouse"), k("4", "hold: GUI", "numpad"), k("5", "hold: Alt", "numpad"), k("6", "hold: Ctrl", "numpad"), k("Space", "hold: Shift", "modifier"), none,
+            none, k("Alt + ←", kind="nav"), k("←", kind="nav"), k("↓", kind="nav"), k("→", kind="nav"), k("Alt + →", kind="nav"),
+            k("Left click", "holdable for drag", "mouse"), k("1", kind="numpad"), k("2", kind="numpad"), k("3", kind="numpad"), k(".", "hold: ,", "numpad"), none,
             k("Middle click", kind="mouse"), k("Left click", kind="mouse"), k("Right click", kind="mouse"),
-            k("Left click", kind="mouse"), k("Right click", kind="mouse"), k("Middle click", kind="mouse"),
+            k("+", "hold: *", "numpad"), k("0", kind="numpad"), k("−", "hold: /", "numpad"),
         ],
     },
-    "adjust": {
+    "03-adjust": {
         "title": "Layer 3 — ADJUST + MOVE",
-        "note": "Display, volume and F-keys on the left · media and movement on the right",
+        "note": "Tap the outer-right thumb to return to Base · Num/Nav and Symbol are momentary",
         "keys": [
             none, k("Brightness −", kind="media"), k("Brightness +", kind="media"), k("F7"), k("F8"), k("F9"),
-            k("▽", kind="transparent"), k("Previous", kind="media"), k("Play / Pause", kind="media"), k("Next", kind="media"), k("Backspace", kind="modifier"), none,
-            none, k("Volume −", kind="media"), k("Volume +", kind="media"), k("F4"), k("F5"), k("F6"),
-            k("Esc", kind="modifier"), k("←", kind="nav"), k("↓", kind="nav"), k("↑", kind="nav"), k("→", kind="nav"), none,
+            k("Delete", kind="modifier"), k("Previous", kind="media"), k("Play / Pause", kind="media"), k("Next", kind="media"), k("Backspace", kind="modifier"), none,
+            none, k("Volume −", "hold: Shift", "media"), k("Volume +", "hold: Ctrl", "media"), k("F4", "hold: Alt"), k("F5", "hold: GUI"), k("F6"),
+            k("Esc", kind="modifier"), k("←", "hold: GUI", "nav"), k("↓", "hold: Alt", "nav"), k("↑", "hold: Ctrl", "nav"), k("→", "hold: Shift", "nav"), none,
             none, k("Mute", kind="media"), k("▽", kind="transparent"), k("F1"), k("F2"), k("F3"),
             k("Shift + Tab", kind="modifier"), k("Tab", kind="modifier"), k("Space", kind="modifier"), k("Enter", kind="modifier"), k("Backspace", kind="modifier"), none,
-            k("F10"), k("F11"), k("F12"), none, none, none,
+            k("NUM NAV", "momentary", "layer"), k("F11"), k("F12"), k("SYM", "momentary", "layer"), none, k("BASE", "switch", "layer"),
         ],
     },
-    "system": {
+    "04-system": {
         "title": "Layer 4 — SYSTEM",
         "note": "Momentary only · hold the two outer thumb keys (#36 + #41)",
         "keys": [
@@ -99,11 +98,9 @@ COMBOS = [
     ("Right", "r + n", "#20 + #21"),
     ("Enter", "d + w", "#31 + #32"),
     ("System layer", "outer thumbs", "#36 + #41"),
-    ("Backspace", "l + z", "#9 + #10"),
     ("Backspace", "n + f", "#21 + #22"),
-    ("Backspace", "q + ä", "#26 + #27"),
     ("Tab", "a + e", "#14 + #15"),
-    ("Shift + Tab", "h + a", "#13 + #14"),
+    ("Shift + Tab", "q + ä", "#26 + #27"),
     ("Copy", "a + o", "#14 + #3"),
     ("Cut", "h + o", "#13 + #3"),
     ("Paste", "i + o", "#16 + #3"),
@@ -197,7 +194,7 @@ def render_combos() -> None:
         text(svg, x + column_width - 34, y + 25, positions, 12, "#718ca8", 500, "end")
 
     svg.append('</svg>')
-    Path(__file__).with_name("combos.svg").write_text("\n".join(svg))
+    Path(__file__).with_name("05-combos.svg").write_text("\n".join(svg))
 
 
 for name, data in LAYERS.items():
