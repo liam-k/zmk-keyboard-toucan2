@@ -98,6 +98,13 @@
             require-prior-idle-ms = <250>;
         };
 
+        combo_backspace_lz {
+            timeout-ms = <40>;
+            key-positions = <9 10>;
+            bindings = <&kp BSPC>;
+            require-prior-idle-ms = <250>;
+        };
+
         combo_tab {
             timeout-ms = <40>;
             key-positions = <14 15>;
@@ -222,6 +229,14 @@
             bindings = <&literal_tilde>, <&kp>;
         };
 
+        adj_tap: adj_tap_hold {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <180>;
+            bindings = <&mo>, <&to>;
+        };
+
         mouse_hold: mouse_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -310,7 +325,7 @@
                 &none      &td DE_DEG K          &td DE_AT DE_DOT        &td DE_LBKT O         &td LA(DE_MINS) DE_COMM  &td DE_CARET DE_UDIA    &td DE_EXCL V       &td DE_LABK G       &td DE_RABK C       &td DE_EQL L       &td DE_AMPS DE_Z  &none
                 &none      &hml LSHFT H          &hml LCTRL A            &hml LALT E           &hml LGUI I             &td DE_STAR DE_Y        &td DE_QUES B       &hmr RGUI T         &hmr RALT R         &hmr RCTRL N        &hmr RSHFT F      &none
                 &none      &td DE_HASH X         &td MAC_PIPE Q          &td DE_DLR DE_ADIA     &tilde_hold 0 DE_U      &td DE_GRV DE_ODIA      &td DE_PLUS P       &td DE_PERC D       &td DE_DQT W        &td DE_SQT M         &td DE_SEMI J      &none
-                                      &mo_to NAV NAV       &mlt SYM SPACE        &smart_shift                &mo_to SYM SYM          &mlt SYM S          &to ADJ
+                                      &mo_to NAV NAV       &mlt SYM SPACE        &smart_shift                &mo_to SYM SYM          &mlt SYM S          &adj_tap ADJ ADJ
             >;
         };
 
@@ -328,8 +343,8 @@
             display-name = "NUM NAV";
             bindings = <
                 &none      &kp N1                       &kp N2               &kp N3              &kp N4                 &kp N5              &kp N6                    &kp N7          &kp N8           &kp N9                &kp N0                 &none
-                &none      &hml_toggle LSHFT SCRL       &hml LCTRL LEFT       &hml LALT UP        &hml LGUI RIGHT         &tog PREC           &mouse_hold MCLK RCLK      &hmr RGUI N4   &hmr RALT N5     &hmr RCTRL N6         &hmr RSHFT SPACE       &none
-                &none      &kp LA(LEFT)                 &kp LEFT              &kp DOWN            &kp RIGHT               &kp LA(RIGHT)       &mkp LCLK                  &kp N1          &kp N2           &kp N3                &td DE_COMM DE_DOT      &none
+                &none      &hml_toggle LSHFT SCRL       &hml LCTRL LEFT       &hml LALT UP        &hml LGUI RIGHT         &tog PREC           &mkp LCLK      &hmr RGUI N4   &hmr RALT N5     &hmr RCTRL N6         &hmr RSHFT SPACE       &none
+                &none      &kp LA(LEFT)                 &kp LEFT              &kp DOWN            &kp RIGHT               &kp LA(RIGHT)       &mouse_hold MCLK RCLK                  &kp N1          &kp N2           &kp N3                &td DE_COMM DE_DOT      &none
                                               &mkp MCLK             &mkp LCLK             &mkp RCLK                       &td DE_STAR DE_PLUS  &kp N0               &td DE_FSLH DE_MINS
             >;
         };
