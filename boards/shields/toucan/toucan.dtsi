@@ -140,12 +140,12 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&trackpad_split>;
-        input-processors = <&zip_xy_scaler 100 100>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+        input-processors = <&zip_xy_scaler 100 100>, <&zip_scroll_scaler 1 32>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
         scroller {
             layers = <6>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
-                &zip_scroll_scaler 1 20
+                &zip_scroll_scaler 1 32
                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
                 &zip_zoom_mapper
                 &is_touching_processor
@@ -154,7 +154,7 @@
         };
         precision {
             layers = <5>;
-            input-processors = <&zip_xy_scaler 20 20>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+            input-processors = <&zip_xy_scaler 25 100>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
         };
     };
 };
