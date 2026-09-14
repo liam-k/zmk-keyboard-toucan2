@@ -354,7 +354,7 @@
             bindings = <
                 &none      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F7           &kp F8          &kp F9           &kp DEL             &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT       &kp BSPC          &none
                 &none      &hml LSHFT C_VOL_DN   &hml LCTRL C_VOL_UP   &hml LALT F4     &hml LGUI F5    &kp F6           &kp ESC             &hmr RGUI LEFT    &hmr RALT DOWN     &hmr RCTRL UP     &hmr RSHFT RIGHT  &none
-                &none      &kp C_MUTE            &none                 &kp F1           &kp F2          &kp F3           &kp LS(TAB)         &kp TAB           &kp SPACE         &kp RET           &kp BSPC          &none
+                &none      &kp C_MUTE            &none                 &kp F1           &kp F2          &kp F3           &kp LG(SPACE)          &kp LS(TAB)            &kp SPACE            &kp TAB          &kp RET          &none
                                                    &mo NAV                 &kp F11             &kp F12                 &mo SYM        &none             &to BASE
             >;
         };
