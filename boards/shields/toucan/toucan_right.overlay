@@ -64,8 +64,8 @@
         scroll-sensitivity = <100>;
 
         filter-settings=<0x0B>;
-        tap-time = <250>; // a tap must finish inside this window, otherwise it becomes a hold
-        hold-time = <300>; // press-and-hold (drag) engages after this
+        tap-time = <200>; // a tap must finish inside this window, otherwise it becomes a hold
+        hold-time = <220>; // press-and-hold (drag) engages after this
 
         zoom;
         scroll;
